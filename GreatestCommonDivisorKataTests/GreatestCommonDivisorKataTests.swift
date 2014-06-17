@@ -11,7 +11,7 @@ import XCTest
 class GreatestCommonDivisorKataTests: XCTestCase {
     let gcd = GreatestCommonDivisorKata()
 
-    func testExample() {
-        XCTAssert(true, "Pass")
+    func testShouldReturnNumberIfInputsAreTheSame() {
+        XCTAssertEqual(1, gcd.calculate(1, number2: 1))
     }
 }

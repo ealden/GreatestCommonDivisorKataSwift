@@ -12,6 +12,8 @@
 		F38304541950501F00595636 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38304531950501F00595636 /* Images.xcassets */; };
 		F38304571950501F00595636 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F38304551950501F00595636 /* MainMenu.xib */; };
 		F38304631950501F00595636 /* GreatestCommonDivisorKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38304621950501F00595636 /* GreatestCommonDivisorKataTests.swift */; };
+		F383046D1950516A00595636 /* GreatestCommonDivisorKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = F383046C1950516A00595636 /* GreatestCommonDivisorKata.swift */; };
+		F383046E1950516A00595636 /* GreatestCommonDivisorKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = F383046C1950516A00595636 /* GreatestCommonDivisorKata.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 		F383045C1950501F00595636 /* GreatestCommonDivisorKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreatestCommonDivisorKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F38304611950501F00595636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F38304621950501F00595636 /* GreatestCommonDivisorKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatestCommonDivisorKataTests.swift; sourceTree = "<group>"; };
+		F383046C1950516A00595636 /* GreatestCommonDivisorKata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreatestCommonDivisorKata.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,7 @@
 				F38304531950501F00595636 /* Images.xcassets */,
 				F38304551950501F00595636 /* MainMenu.xib */,
 				F383044D1950501F00595636 /* Supporting Files */,
+				F383046C1950516A00595636 /* GreatestCommonDivisorKata.swift */,
 			);
 			path = GreatestCommonDivisorKata;
 			sourceTree = "<group>";
@@ -209,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F38304521950501F00595636 /* AppDelegate.swift in Sources */,
+				F383046D1950516A00595636 /* GreatestCommonDivisorKata.swift in Sources */,
 				F38304501950501F00595636 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F38304631950501F00595636 /* GreatestCommonDivisorKataTests.swift in Sources */,
+				F383046E1950516A00595636 /* GreatestCommonDivisorKata.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

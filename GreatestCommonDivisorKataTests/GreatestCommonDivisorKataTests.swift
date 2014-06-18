@@ -16,7 +16,8 @@ class GreatestCommonDivisorKataTests: XCTestCase {
         XCTAssertEqual(2, gcd.calculate(2, 2))
     }
 
-    func testShouldReturn0IfInputsAreNotTheSame() {
-        XCTAssertEqual(0, gcd.calculate(1, 2))
+    func testShouldReturnSmallerInputIfDivisibleToOtherInput() {
+        XCTAssertEqual(2, gcd.calculate(4, 2))
+        XCTAssertEqual(2, gcd.calculate(2, 4))
     }
 }

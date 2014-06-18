@@ -17,7 +17,7 @@ class GreatestCommonDivisorKata {
         } else if (number2 % number1) == 0 {
             return number1
         } else {
-            return 0
+            return 1
         }
     }
 }

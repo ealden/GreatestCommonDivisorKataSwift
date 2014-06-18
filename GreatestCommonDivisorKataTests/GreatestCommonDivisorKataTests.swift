@@ -20,4 +20,9 @@ class GreatestCommonDivisorKataTests: XCTestCase {
         XCTAssertEqual(2, gcd.calculate(4, 2))
         XCTAssertEqual(2, gcd.calculate(2, 4))
     }
+
+    func testShouldReturn1IfInputsAreBothPrime() {
+        XCTAssertEqual(1, gcd.calculate(3, 7))
+        XCTAssertEqual(1, gcd.calculate(11, 13))
+    }
 }

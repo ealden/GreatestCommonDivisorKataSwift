@@ -10,6 +10,10 @@ import Foundation
 
 class GreatestCommonDivisorKata {
     func calculate(let number1: Int, let _ number2: Int) -> Int {
-        return number1
+        if number1 == number2 {
+            return number1
+        } else {
+            return 0
+        }
     }
 }

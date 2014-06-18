@@ -9,7 +9,7 @@
 import Foundation
 
 class GreatestCommonDivisorKata {
-    func calculate(let number1: Int, let number2: Int) -> Int {
+    func calculate(let number1: Int, let _ number2: Int) -> Int {
         return number1
     }
 }

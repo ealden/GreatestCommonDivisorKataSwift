@@ -12,7 +12,7 @@ class GreatestCommonDivisorKataTests: XCTestCase {
     let gcd = GreatestCommonDivisorKata()
 
     func testShouldReturnNumberIfInputsAreTheSame() {
-        XCTAssertEqual(1, gcd.calculate(1, number2: 1))
-        XCTAssertEqual(2, gcd.calculate(2, number2: 2))
+        XCTAssertEqual(1, gcd.calculate(1, 1))
+        XCTAssertEqual(2, gcd.calculate(2, 2))
     }
 }

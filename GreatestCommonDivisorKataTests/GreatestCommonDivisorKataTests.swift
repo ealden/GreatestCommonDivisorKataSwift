@@ -39,4 +39,13 @@ class GreatestCommonDivisorKataTests: XCTestCase {
     func testShouldReturn1IfBothInputs0() {
         XCTAssertEqual(1, gcd.calculate(0, 0))
     }
+
+    func testShouldReturn0IfAnInputIsNegative() {
+        XCTAssertEqual(0, gcd.calculate(1, -1))
+        XCTAssertEqual(0, gcd.calculate(-1, 1))
+    }
+
+    func testShouldReturn0IfBothInputsNegative() {
+        XCTAssertEqual(0, gcd.calculate(-20, -35))
+    }
 }

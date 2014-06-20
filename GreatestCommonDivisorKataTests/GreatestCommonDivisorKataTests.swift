@@ -25,4 +25,10 @@ class GreatestCommonDivisorKataTests: XCTestCase {
         XCTAssertEqual(1, gcd.calculate(3, 7))
         XCTAssertEqual(1, gcd.calculate(11, 13))
     }
+
+    func testShouldReturnGCD() {
+        XCTAssertEqual(6, gcd.calculate(54, 24))
+        XCTAssertEqual(6, gcd.calculate(24, 54))
+        XCTAssertEqual(9, gcd.calculate(27, 90))
+    }
 }

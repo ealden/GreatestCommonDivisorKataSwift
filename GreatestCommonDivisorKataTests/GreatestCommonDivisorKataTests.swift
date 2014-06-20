@@ -31,4 +31,8 @@ class GreatestCommonDivisorKataTests: XCTestCase {
         XCTAssertEqual(6, gcd.calculate(24, 54))
         XCTAssertEqual(9, gcd.calculate(27, 90))
     }
+
+    func testShouldReturn1IfAnInputIsO() {
+        XCTAssertEqual(1, gcd.calculate(0, 20))
+    }
 }

@@ -16,22 +16,9 @@ class GreatestCommonDivisorKata {
             return number2
         } else if (number2 % number1) == 0 {
             return number1
+        } else {
+            return number1.gcd(number2)
         }
-
-        let divisors1 = number1.divisors()
-        let divisors2 = number2.divisors()
-
-        var gcd = 1
-
-        for i in divisors1 {
-            for j in divisors2 {
-                if (i == j) && (gcd < i) {
-                    gcd = i
-                }
-            }
-        }
-
-        return gcd
     }
 }
 
@@ -48,5 +35,22 @@ extension Int {
         }
 
         return divisors
+    }
+
+    func gcd(let rhs: Int) -> Int {
+        let divisors1 = self.divisors()
+        let divisors2 = rhs.divisors()
+
+        var gcd = 1
+
+        for i in divisors1 {
+            for j in divisors2 {
+                if (i == j) && (gcd < i) {
+                    gcd = i
+                }
+            }
+        }
+
+        return gcd
     }
 }
